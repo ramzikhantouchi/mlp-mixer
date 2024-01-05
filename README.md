@@ -32,5 +32,5 @@ model = MLPMixer(
     channels = 3
 )
 
-img = torch.randn(1, 224, 224, 3)
+img = tr.randn(1, 224, 224, 3)
 pred = model(img) # (1, 100)
